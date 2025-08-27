@@ -65,8 +65,9 @@
     return div;
   }
 
-  input.addEventListener('keydown', e => {
-    if(e.key === 'Enter') sendMessage(input.value));
-  });
+input.addEventListener('keydown', e => {
+  if(e.key === 'Enter') sendMessage(input.value);
+});
+
   send.addEventListener('click', () => sendMessage(input.value));
 })();

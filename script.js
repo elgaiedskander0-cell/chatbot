@@ -1,5 +1,5 @@
 (function(){
-  const N8N_WEBHOOK = "YOUR_N8N_WEBHOOK_URL"; 
+  const N8N_WEBHOOK = "https://sikkina.app.n8n.cloud/webhook/b6770bea-e920-4f5c-9ad0-aa8dee4411e2/chat"; 
   const root = document.getElementById('chat-root');
 
   root.innerHTML = `
